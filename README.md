@@ -1,7 +1,7 @@
 # CS539-project
 MA Housing market prediction
 
-How to install and run
+## How to install and run
 \
 For downloading the code just run:
 
