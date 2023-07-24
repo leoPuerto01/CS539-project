@@ -5,10 +5,9 @@ body {
 
 .gradient-header {
   display: flex;
-  /*justify-content: space-between;*/
-  justify-content: center; /* Center the header content horizontally */
+  justify-content: space-between;*/
   align-items: center; /* Center the header content vertically */
-  padding: 20px;
+  padding: 40px;
   background-image: linear-gradient(to right, #00aaff, #00ff99);
   color: #fff;
 }
