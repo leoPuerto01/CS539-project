@@ -3,6 +3,14 @@ body {
   font-family: Arial, sans-serif;
 }
 
+.fixed-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; /* Ensures the header is above other elements */
+}
+
 .gradient-header {
   display: flex;
   justify-content: space-between;
