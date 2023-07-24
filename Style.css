@@ -99,14 +99,15 @@ h1 {
 
   ul {
     margin-left: 20px; /* Add space on the left side of the list */
-    margin-bottom: 20px
+    margin-bottom: 20px;
   }
 
   ol {
     margin-left: 20px; /* Add space on the left side of the list */
-    margin-bottom: 20px
+    margin-bottom: 20px;
   }
 
   li {
     text-align: justify;
+
   }
