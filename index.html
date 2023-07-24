@@ -172,26 +172,28 @@
       <!-- inset plots -->
       <img src="images/comparison.png" alt="alternative_text">
       <p>
-        <li>The R2 scores across all models indicate that the model explains most of the variance 
-        in the dependent variable since it is higher than 0.7 (1 being perfectly predicted). 
-        This means that it can predict the data points with a high level of certainty. 
-        In our experiment, the one with the higher R2 is considered preferable as it 
-        is an indication of better predictive performance. We can see that XGBoost 
-        achieves the highest R2 and therefore the preferred method for prediction using 
-        our dataset based on R2 scores. </li>
+        <ul></ul>
+          <li>The R2 scores across all models indicate that the model explains most of the variance 
+          in the dependent variable since it is higher than 0.7 (1 being perfectly predicted). 
+          This means that it can predict the data points with a high level of certainty. 
+          In our experiment, the one with the higher R2 is considered preferable as it 
+          is an indication of better predictive performance. We can see that XGBoost 
+          achieves the highest R2 and therefore the preferred method for prediction using 
+          our dataset based on R2 scores. </li>
     
-        <li>Unlike the R2 score, the mean squared error (MAE) accuracy increases when the MAE 
-        approaches 0. In this case, we can also see the best predictive model for our data is XGBoost </li>
+          <li>Unlike the R2 score, the mean squared error (MAE) accuracy increases when the MAE 
+          approaches 0. In this case, we can also see the best predictive model for our data is XGBoost </li>
 
-        <li>As MAE, the closer our MSE gets to 0, the more accurate our models will predict our data. 
-        We also notice these are not similar due to the square factor on MSE. As shown by the table,
-         we can see XGBoost outperforming all other models. </li>
-
-        <li>Derived from the MSE, the RMSE, we add the root square to the MSE to add additional sensitivity
-        to outliners (even though we tried to decrease the amount during the pre-processing data phase).
-        Based on our results, XGBoost comes on top and provides the user with the insight that using 
-        this model could provide the most accurate predictions when considering prices in a house in
-        the MA region.</li>
+          <li>As MAE, the closer our MSE gets to 0, the more accurate our models will predict our data. 
+          We also notice these are not similar due to the square factor on MSE. As shown by the table,
+           we can see XGBoost outperforming all other models. </li>
+  
+          <li>Derived from the MSE, the RMSE, we add the root square to the MSE to add additional sensitivity
+          to outliners (even though we tried to decrease the amount during the pre-processing data phase).
+          Based on our results, XGBoost comes on top and provides the user with the insight that using 
+          this model could provide the most accurate predictions when considering prices in a house in
+          the MA region.</li>
+        </ul>
       </p>
       <h2>Challenges</h2>
       <p>
