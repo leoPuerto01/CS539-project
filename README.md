@@ -1,5 +1,5 @@
 # CS539-project
-Massachusetts Housing Price Prediction
+Massachusetts Housing Market Price Prediction
 
 ## From a Terminal
 Go to the folder where you want to store your project
