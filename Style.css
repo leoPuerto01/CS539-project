@@ -38,7 +38,7 @@ h1 {
 }
 
 .intro-content {
-  max-width: 800px;
+  max-width: 1000px; /* Optional: Add spacing around images */
   margin: 0 auto;
 }
 
@@ -67,7 +67,7 @@ h1 {
 }
 
 .section-content {
-  max-width: 800px;
+  max-width: 1000px; /* Optional: sets the page width */
   margin: 0 auto;
 }
 
@@ -107,6 +107,8 @@ h1 {
 
   li {
     text-align: justify;
+    font-size: 16px;
+    line-height: 1.6;
     margin-bottom: 20px;
 
   }
