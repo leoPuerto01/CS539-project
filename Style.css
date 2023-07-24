@@ -96,3 +96,15 @@ h1 {
   display: block;
   margin: 20px auto; /* Optional: Add spacing around images */
 }
+
+  ul {
+    margin-left: 20px; /* Add space on the left side of the list */
+  }
+
+  ol {
+    margin-left: 20px; /* Add space on the left side of the list */
+  }
+
+  li {
+    text-align: justify;
+  }
