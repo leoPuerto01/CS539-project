@@ -47,13 +47,15 @@
       <h2>Data Preprocessing </h2>
       <h3>Generating MA housing dataset & Data Cleaning</h3>
       <p>
-        The USA Real Estate Dataset [6] was used as the primary dataset. However, the USA Real Estate Dataset 
-        only partially contains the features that we are interested in for building our models, 
-        we searched for and collected the data of eight more features to combine with the original 
-        dataset and generated our own MA housing dataset.
+        The USA Real Estate Dataset [6] was selected as the primary dataset because it contains city name and zip codes, 
+        which we later used as an index to add the additional features. However, this dataset only partially contains 
+        the features that we are interested in for building our models. Therefore, we conducted a thorough search and collected 
+        the data of eight more features, including ‘crime index’, ‘people in poverty’, ‘people commute time’, ‘personal property tax rate’,
+        ‘population density’, ‘school rating’, and ‘median household income’. We combined these data with the original dataset 
+        to create our own MA housing dataset.  
         <br><br>
-        For cleaning the data, we first deleted the rows with missing values. Then we removed the 
-        duplicate rows. Below is a summary of our dataset after data cleaning: 
+        To ensure data quality for building our models, we performed cleaning procedures by removing rows with missing values and 
+        eliminating duplicate entries. Below is a summary of our dataset after the data cleaning process: 
         <br><br>
         Dataset size: [6157 rows x 16 columns] 
         <br><br>
@@ -100,23 +102,21 @@
        <img src="images/skew.png" alt="alternative_text">
       <h3>Correlation between each feature and the target</h3>
         <p>
-        The correlation heatmap of the features and the target is presented below. It indicates that 
-        all the features are correlated with the target 'price'. Among all the features, 'bath' and 
-        'Average Education Index' have the most positive correlation with 'price', while 
-        'Personal_property_tax_rate' has the most negative correlation with 'price'.
+        The correlation heatmap of the features and the target is presented below. 
+        It indicates that all the features are correlated with the target ‘price’. Among all the features, 
+        ‘bath’ has the most positive correlation with the house price, while ‘Personal_property_tax_rate’ has the most
+        negative correlation with ‘price’. This implies that houses with a greater number of bathrooms tend to have higher prices.
+        And the houses in the region with a higher personal property tax rate tend to have lower prices. 
         <br><br> 
-        Furthermore, 'crime_index' and 'People_in_poverty' are both highly negatively correlated with 
-        'School_rating' and 'Median Household Income' respectively. Additionally, 'bed' and 'bath' 
-        are greatly positively correlated with 'house_size'. Moreover, 'School_rating' and 
-        'Average Education Index' are greatly positively correlated with 'Median Household Income'.    
+        Besides, we observed that the regions with lower median household income and higher rates of people in poverty tend to 
+        have lower ratings of school and higher rates of crime. And residents in these regions tend to have lower education attainments.    
         </p>
         <!-- inset plots -->
         <img src="images/correlation.png" alt="alternative_text">
       <h3>Feature Scaling</h3>
       <p>
-        Because of the huge differences in the scale of each variable, we normalized all the data 
-        to the same range between 0 to 1. However, for 'zip_code', since it is a category feature, 
-        we created dummy variables for this feature. 
+        Due to the significant differences in the scale of each variable, we normalized all the data to a common 
+        range between 0 to 1. However, for ‘zip_code’, as it is a categorical feature, we created dummy variables to represent its valuse.  
       </p>
       <h2>Algorithm Selection and Hyperparameter Tuning </h2>
       <!-- Content for the Challenges section goes here -->
