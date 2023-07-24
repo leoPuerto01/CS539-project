@@ -88,4 +88,11 @@ h1 {
   font-size: 16px;
   line-height: 1.6;
   margin-bottom: 20px;
+  text-align: justify;
+
+  /* Add styles for images */
+.section-content img {
+  max-width: 100%;
+  display: block;
+  margin: 20px auto; /* Optional: Add spacing around images */
 }
