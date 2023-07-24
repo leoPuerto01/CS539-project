@@ -90,7 +90,8 @@ h1 {
   margin-bottom: 20px;
   text-align: justify;
 }
-  /* Add styles for images */
+
+/* Add styles for images */
 .section-content img {
   max-width: 100%;
   display: block;
