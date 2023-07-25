@@ -14,6 +14,10 @@ cd CS539-project
 https://leopuerto01.github.io/CS539-project/
 
 ## Project's coding work in Google Colab
+Raw Dataset: ma.xlsx
+\
+Our model's Dataset: ma_final_dataset.csv
+\
 https://github.com/leoPuerto01/CS539-project/blob/main/CS_539_Project.ipynb
 
 
