@@ -13,4 +13,7 @@ cd CS539-project
 ## Project Website
 https://leopuerto01.github.io/CS539-project/
 
+## Project's coding work in Google Colab
+https://github.com/leoPuerto01/CS539-project/blob/main/CS_539_Project.ipynb
+
 
