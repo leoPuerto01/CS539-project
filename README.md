@@ -14,9 +14,17 @@ cd CS539-project
 https://leopuerto01.github.io/CS539-project/
 
 ## Project's coding work in Google Colab
-Raw Dataset: ma.xlsx [link](file:///https://github.com/leoPuerto01/CS539-project/raw/main/data/ma.xlsx) 
+Original Dataset USA Real Estate Dataset from kaggle
+\
+https://www.kaggle.com/datasets/ahmedshahriarsakib/usa-real-estate-dataset
+\
+Raw Dataset: ma.xlsx
+\
+https://github.com/leoPuerto01/CS539-project/raw/main/data/ma.xlsx
 \
 Our model's Dataset: ma_final_dataset.csv
+\
+https://github.com/leoPuerto01/CS539-project/raw/main/data/ma_final_dataset.csv
 \
 https://github.com/leoPuerto01/CS539-project/blob/main/CS_539_Project.ipynb
 
