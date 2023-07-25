@@ -36,7 +36,7 @@ Our model's Dataset: ma_final_dataset.csv
 \
 https://github.com/leoPuerto01/CS539-project/raw/main/data/ma_final_dataset.csv
 ## Project's coding work in Google Colab
-Please upload ma.xlsx, MaAverageEducationIndexZip.xlsx, MaMedianHouseholdIncomeZip.xlsx and ma_final_dataset.csv, then run the cells one by one
+Please upload ma.xlsx, MaAverageEducationIndexZip.xlsx, MaMedianHouseholdIncomeZip.xlsx and ma_final_dataset.csv to the environment, then run the cells one by one
 \
 https://github.com/leoPuerto01/CS539-project/blob/main/CS_539_Project.ipynb
 
