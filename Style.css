@@ -84,6 +84,13 @@ h1 {
   margin-bottom: 15px;
 }
 
+.section-content h4 {
+  color: #007bff;
+  font-size: 18px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
 .section-content p {
   font-size: 16px;
   line-height: 1.6;
